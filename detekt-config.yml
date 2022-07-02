@@ -63,7 +63,7 @@ exceptions:
   active: true
   ExceptionRaisedInUnexpectedLocation:
     active: true
-    methodNames: 'toString,hashCode,equals,finalize'
+    methodNames: ['toString','hashCode','equals','finalize']
   InstanceOfCheckForException:
     active: true
   NotImplementedDeclaration:
@@ -81,48 +81,6 @@ exceptions:
   ThrowingExceptionsWithoutMessageOrCause:
     active: true
   ThrowingNewInstanceOfSameException:
-    active: true
-
-formatting:
-  active: true
-  ChainWrapping:
-    active: true
-  CommentSpacing:
-    active: true
-  ImportOrdering:
-    active: true
-  Indentation:
-    active: true
-    indentSize: 2
-    continuationIndentSize: 4
-  NoBlankLineBeforeRbrace:
-    active: true
-  NoConsecutiveBlankLines:
-    active: true
-  NoLineBreakBeforeAssignment:
-    active: true
-  NoMultipleSpaces:
-    active: true
-  NoSemicolons:
-    active: true
-  NoTrailingSpaces:
-    active: true
-  ParameterListWrapping:
-    active: true
-    indentSize: 2
-  SpacingAroundColon:
-    active: true
-  SpacingAroundComma:
-    active: true
-  SpacingAroundCurly:
-    active: true
-  SpacingAroundKeyword:
-    active: true
-  SpacingAroundOperators:
-    active: true
-  SpacingAroundRangeOperator:
-    active: true
-  StringTemplate:
     active: true
 
 naming:
@@ -255,7 +213,7 @@ style:
     active: true
   UnderscoresInNumericLiterals:
     active: false
-    acceptableDecimalLength: 3
+    acceptableLength: 3
   UnnecessaryAbstractClass:
     active: true
   UnnecessaryApply:
