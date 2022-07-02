@@ -41,4 +41,4 @@ jobs:
        - name: "detekt"
          uses: natiginfo/action-detekt-all@1.21.0-RC2
          with:
-           args: --build-upon-default-config
+           args: --config detekt-config.yml
