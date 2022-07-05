@@ -1,4 +1,4 @@
-package org.sabaini.dailybugle.ui.theme
+package org.sabaini.dailybugle.core.designsystem.theme
 
 import android.app.Activity
 import android.os.Build
