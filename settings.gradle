@@ -13,6 +13,7 @@ dependencyResolutionManagement {
     }
 }
 rootProject.name = "dailybugle"
+enableFeaturePreview("VERSION_CATALOGS")
 include ':app'
 include ':core-network'
 include ':core-database'
