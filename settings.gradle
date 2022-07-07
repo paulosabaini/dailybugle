@@ -13,4 +13,18 @@ dependencyResolutionManagement {
     }
 }
 rootProject.name = "dailybugle"
+enableFeaturePreview("VERSION_CATALOGS")
 include ':app'
+include ':core-network'
+include ':core-database'
+include ':core-datastore'
+include ':core-common'
+include ':core-data'
+include ':core-data-test'
+include ':core-designsystem'
+include ':core-navigation'
+include ':core-testing'
+include ':core-ui'
+include ':sync'
+include ':core-model'
+include ':core-domain'
